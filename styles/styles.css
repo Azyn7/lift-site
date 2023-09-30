@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Poppins:ital@0;1&display=swap');
+/* 
+    Main Headers:
+        font-family: 'Alegreya', serif;
+    font-family: 'Poppins', sans-serif;
+*/
+
+@media only screen and (min-width: 768px) {
+    .header-info {
+        visibility: visible !important;
+    }
+
+    #nav-bar {
+        top: 0px !important;
+    }
+
+    .about-parallax {
+        /* Set a specific height */
+        min-height: 400px !important;
+    }
+
+    #intro-header,
+    #team-header {
+        top: 0px !important;
+    }
+
+    #intro-text {
+        margin-top: 22% !important;
+    }
+
+    #about-us,
+    #the-team {
+        top: 0px !important;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    #open-times {
+        left: 0%;
+    }
+
+    #header-insta {
+        top: -5% !important;
+    }
+
+    .nav-link {
+        position: relative;
+        top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .active {
+        border-bottom: 10px white solid;
+    }
+
+    #intro-text {
+        margin-top: 10% !important;
+    }
+
+    .team-parallax {
+        /* Set a specific height */
+        min-height: 500px !important;
+      
+        /* Create the parallax scrolling effect */
+        background-position-y: 22% !important;
+        background-size: cover !important;
+    }
+}
+
+
+
+:root {
+    --darkest-grey: #023535;
+    --dark-grey: #015958;
+    --mid-grey: #008F8C;
+    --light-grey: #0CABA8;
+    --lightest-grey: #0FC2C0;
+}
+
+body {
+    background-color: var(--light-grey);
+}
+
+h1, h2, h3 {
+    font-family: 'Alegreya', serif;
+}
+
+h4, h5, h6 {
+    font-family: 'Alegreya', serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-info {
+    background-color: var(--darkest-grey);
+    visibility: hidden;
+}
+
+.header-info p {
+    font-size: 12px;
+}
+
+.header-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-info a:hover {
+    color: var(--lightest-grey);
+}
+
+#nav-bar {
+    position: relative;
+    top: -95px;
+}
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Junge', serif;
+}
+
+.about-parallax {
+    /* The image used */
+    background-image: url("./images/salon/placeholder.jpg");
+  
+    /* Set a specific height */
+    min-height: 250px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#intro-header,
+#team-header {
+    position: relative;
+    top: -95px;
+}
+
+#intro-text {
+    margin-top: 25%;
+}
+
+#about-us {
+    background-color: var(--light-grey);
+    position: relative;
+    top: -95px;
+}
+
+.team-parallax {
+    /* The image used */
+    
+    background-color: black;
+    background-image: url("./images/team-imgs/the-team.jpg");
+
+    /* Set a specific height */
+    min-height: 210px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#the-team {
+    position: relative;
+    top: -95px;
+}
