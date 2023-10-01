@@ -33,6 +33,12 @@
         top: 0px !important;
     }
 
+    .team-img {
+        position: relative;
+        left: 60px;
+        top: 20px;
+    }
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -58,16 +64,24 @@
         margin-top: 10% !important;
     }
 
-    .team-parallax {
-        /* Set a specific height */
+    #team-header {
+        background-position-y: -60px !important;
         min-height: 500px !important;
-      
-        /* Create the parallax scrolling effect */
-        background-position-y: 22% !important;
-        background-size: cover !important;
+    }
+
+    .team-img {
+        position: relative;
+        left: 25%;
+        top: 20px;
     }
 }
 
+@media only screen and (min-width: 1200px) {
+    .team-img {
+        left: 0%;
+        top: 0px;
+    }
+}
 
 
 :root {
@@ -75,11 +89,11 @@
     --dark-grey: #015958;
     --mid-grey: #008F8C;
     --light-grey: #0CABA8;
-    --lightest-grey: #0FC2C0;
+    --lightest-grey: #14e1dd;
 }
 
 body {
-    background-color: var(--light-grey);
+    background-color: var(--lightest-grey);
 }
 
 h1, h2, h3 {
@@ -110,6 +124,7 @@ p {
 
 .header-info a:hover {
     color: var(--lightest-grey);
+    transition: .3s;
 }
 
 #nav-bar {
@@ -146,6 +161,15 @@ p {
     top: -95px;
 }
 
+#team-header {
+    background-image: url('./images/team-imgs/the-team.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0px;
+    min-height: 300px;
+}
+
 #intro-text {
     margin-top: 25%;
 }
@@ -156,24 +180,29 @@ p {
     top: -95px;
 }
 
-.team-parallax {
-    /* The image used */
-    
-    background-color: black;
-    background-image: url("./images/team-imgs/the-team.jpg");
-
-    /* Set a specific height */
-    min-height: 210px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-position-y: 20%;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 #the-team {
     position: relative;
     top: -95px;
+    text-decoration: none;
+}
+
+#the-team i {
+    text-decoration: none;
+    color: black;
+}
+
+.team-member-bio {
+    background-color: white;
+    filter: drop-shadow(10px 10px var(--dark-grey));
+    overflow: hidden;
+    padding: 20px;
+}
+
+.team-content {
+    margin-top: 10px;
+}
+
+.team-img {
+    margin: 0 auto;
+    border: 10px var(--darkest-grey) solid;
 }
