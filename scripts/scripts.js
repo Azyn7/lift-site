@@ -5,7 +5,7 @@ $('document').ready(function() {
         AOS.init();
     }, 120);
 
-    getNavbar();
+    //getNavbar();
     getTeam();
 });
 
@@ -15,47 +15,47 @@ function getCurrentFileName(){
 }
 
 // used to take up less space on html pages, creates proper navbar.
-function getNavbar() {
-    let active;
-    console.log(fileName);
-    if (fileName === "index.html") {
-        active = `
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./pages/team.html">Meet The Team</a>
-            </li>
-        `
-    } else if (fileName === "team.html") {
-        active = `
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Meet The Team</a>
-            </li>
-        `
-    }
+// function getNavbar() {
+//     let active;
+//     console.log(fileName);
+//     if (fileName === "index.html") {
+//         active = `
+//             <li class="nav-item">
+//                 <a class="nav-link active" aria-current="page" href="#">About</a>
+//             </li>
+//             <li class="nav-item">
+//                 <a class="nav-link" href="./pages/team.html">Meet The Team</a>
+//             </li>
+//         `
+//     } else if (fileName === "team.html") {
+//         active = `
+//             <li class="nav-item">
+//                 <a class="nav-link" aria-current="page" href="../index.html">About</a>
+//             </li>
+//             <li class="nav-item">
+//                 <a class="nav-link active" href="#">Meet The Team</a>
+//             </li>
+//         `
+//     }
 
-    let navbar = `
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="../styles/images/logos/lift-logo.png" alt="" width="100" height="85"></img>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav-list">
-            </div>
-        </div>
-    `
+//     let navbar = `
+//         <div class="container-fluid">
+//             <a class="navbar-brand" href="#">
+//                 <img src="../styles/images/logos/lift-logo.png" alt="" width="100" height="85"></img>
+//             </a>
+//             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+//                 <span class="navbar-toggler-icon"></span>
+//             </button>
+//             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+//             <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav-list">
+//             </div>
+//         </div>
+//     `
 
 
-    $("#nav-bar").html(navbar);
-    $("#nav-list").html(active);
-}
+//     $("#nav-bar").html(navbar);
+//     $("#nav-list").html(active);
+// }
 
 // fetchs content from team.json and loads it to team.html
 function getTeam() {
