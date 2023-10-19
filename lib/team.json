@@ -1,50 +1,95 @@
 [
     {
-        "name" : "Becca Parker",
-        "offers" : "",
-        "desc" : "“Hey guys! My name is Becca and I’m the owner of Lift Studios. I am also a stylist at Lift specializing in accentuating natural colors to look their best! I love our community so much and I can’t thank you enough for all of your continued support”",
-        "insta" : "https://www.instagram.com/liftedbybec/",
-        "book" : "https://beccaparker.glossgenius.com/services",
-        "img" : "../styles/images/team-imgs/becca-parker.jpg"
+        "name": "Becca Parker",
+        "offers": [
+            {
+                "service": "Custom Hair Coloring"
+            }
+        ],
+        "desc": "“Hey guys! My name is Becca and I’m the owner of Lift Studios. I am also a stylist at Lift specializing in accentuating natural colors to look their best! I love our community so much and I can’t thank you enough for all of your continued support”",
+        "insta": "https://www.instagram.com/liftedbybec/",
+        "book": "https://beccaparker.glossgenius.com/services",
+        "img": "../styles/images/team-imgs/becca-parker.jpg"
     },
     {
-        "name" : "Marianna Allen",
-        "offers" : "",
-        "desc" : "“Hey yall I’m Mari and I have been at Lift for a year and a half! I love doing all things color, extensions, and styling! I love meeting everyone and hope to see you in my chair soon!”",
-        "insta" : "https://www.instagram.com/_hairbymarianna/",
-        "book" : "https://www.instagram.com/_hairbymarianna/",
-        "img" : "../styles/images/team-imgs/marianna-allen.jpg"
+        "name": "Marianna Allen",
+        "offers": [
+            {
+                "service": "Custom Hair Coloring"
+            },
+            {
+                "service": "Hair Extensions"
+            },
+            {
+                "service": "Hair Cutting"
+            }
+        ],
+        "desc": "“Hey yall I’m Mari and I have been at Lift for a year and a half! I love doing all things color, extensions, and styling! I love meeting everyone and hope to see you in my chair soon!”",
+        "insta": "https://www.instagram.com/_hairbymarianna/",
+        "book": "https://www.instagram.com/_hairbymarianna/",
+        "img": "../styles/images/team-imgs/marianna-allen.jpg"
     },
     {
-        "name" : "Julia Garrett",
-        "offers" : "",
-        "desc" : "“Hi everyone my name is Julia Garrett & I do permanent jewelry + social media here at Lift! I love getting to provide jewelry to our customers that is lasting, classy, and unique to each person!”",
-        "insta" : "https://www.instagram.com/juliafaithgarrett/",
-        "book" : "https://www.instagram.com/juliafaithgarrett/",
-        "img" : "../styles/images/team-imgs/julia-faith-garret.jpg"
+        "name": "Julia Garrett",
+        "offers": [
+            {
+                "service": "Permanent Jewelry"
+            },
+            {
+                "service": "Boutique Clothing"
+            }
+        ],
+        "desc": "“Hi everyone my name is Julia Garrett & I do permanent jewelry + social media here at Lift! I love getting to provide jewelry to our customers that is lasting, classy, and unique to each person!”",
+        "insta": "https://www.instagram.com/juliafaithgarrett/",
+        "book": "https://www.instagram.com/juliafaithgarrett/",
+        "img": "../styles/images/team-imgs/julia-faith-garret.jpg"
     },
     {
-        "name" : "Alicia Allen",
-        "offers" : "",
-        "desc" : "“Hey y’all! My name is Alicia Allen, I’m the Lash Tech and Event Makeup Artist at Lift Studios! I’m certified in both Eyelash Extensions and Lash Lift & Tints! My specialties are Hybrid lash extensions, and bridal glam!”",
-        "insta" : "https://www.instagram.com/beauty.by_alicia/",
-        "book" : "https://beautybyaliciaallen.glossgenius.com/services",
-        "img" : "../styles/images/team-imgs/alicia-g-allen.jpg"
+        "name": "Alicia Allen",
+        "offers": [
+            {
+                "service": "Eyelash Extensions"
+            },
+            {
+                "service": "Lash Lift & Tints"
+            },
+            {
+                "service": "Makeup for All Special Occassions"
+            }
+        ],
+        "desc": "“Hey y’all! My name is Alicia Allen, I’m the Lash Tech and Event Makeup Artist at Lift Studios! I’m certified in both Eyelash Extensions and Lash Lift & Tints! My specialties are Hybrid lash extensions, and bridal glam!”",
+        "insta": "https://www.instagram.com/beauty.by_alicia/",
+        "book": "https://beautybyaliciaallen.glossgenius.com/services",
+        "img": "../styles/images/team-imgs/alicia-g-allen.jpg"
     },
     {
-        "name" : "Kaeland Waddell",
-        "offers" : "",
-        "desc" : "“Hello peeps! ✨ My name is Kaeland and I am a hairstylist at LIFT! I love anything hair related but my passion is coloring and making people feel their best!”",
-        "insta" : "https://www.instagram.com/kaeland_waddell_hair/",
-        "book" : "https://www.instagram.com/kaeland_waddell_hair/",
-        "img" : "../styles/images/team-imgs/kaeland-waddell.jpg"
+        "name": "Kaeland Waddell",
+        "offers": [
+            {
+                "service": "Custom Hair Coloring"
+            },
+            {
+                "service": "Hair Cutting"
+            }
+        ],
+        "desc": "“Hello peeps! ✨ My name is Kaeland and I am a hairstylist at LIFT! I love anything hair related but my passion is coloring and making people feel their best!”",
+        "insta": "https://www.instagram.com/kaeland_waddell_hair/",
+        "book": "https://www.instagram.com/kaeland_waddell_hair/",
+        "img": "../styles/images/team-imgs/kaeland-waddell.jpg"
     },
     {
-        "name" : "Abbie Lee",
-        "offers" : "",
-        "desc" : "“Hey y’all! I am Abbie Lee and I am a hairstylist here at Lift Studios! I can do a little bit of everything! I am partial to my blondies, but I love a challenge when it comes to specialty colors!”",
-        "insta" : "https://www.instagram.com/abbielee_haircompany/",
-        "book" : "https://abbielee.glossgenius.com/services",
-        "img" : "../styles/images/team-imgs/abbie-lee.jpg"
+        "name": "Abbie Lee",
+        "offers": [
+            {
+                "service": "Custom Hair Coloring"
+            },
+            {
+                "service": "Formal Styles"
+            }
+        ],
+        "desc": "“Hey y’all! I am Abbie Lee and I am a hairstylist here at Lift Studios! I can do a little bit of everything! I am partial to my blondies, but I love a challenge when it comes to specialty colors!”",
+        "insta": "https://www.instagram.com/abbielee_haircompany/",
+        "book": "https://abbielee.glossgenius.com/services",
+        "img": "../styles/images/team-imgs/abbie-lee.jpg"
     }
 ]

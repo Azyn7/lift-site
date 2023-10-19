@@ -30,7 +30,7 @@
         margin-top: 0% !important;
         text-align: center;
     }
-    
+
     #about-us,
     #the-team {
         top: 0px !important;
@@ -109,20 +109,24 @@
 }
 
 .about-section {
-    min-height: 500px;
-    
+    min-height: 400px;
+    margin: 0 auto;
 }
 
 body {
     background-color: var(--champagne-pink) !important;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Alegreya', serif;
     font-weight: 900;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
     font-family: 'Alegreya', serif;
 }
 
@@ -151,7 +155,7 @@ p {
 
 .navbar-lift {
     background-color: var(--light-black);
-    color: white ;
+    color: white;
 }
 
 .navbar {
@@ -214,25 +218,29 @@ p {
 
 .about-parallax {
     /* The image used */
-  background-image: url("./images/salon/lobby.png");
+    background-image: url("./images/salon/lobby.png");
 
-  /* Set a specific height */
-  min-height: 400px;
+    /* Set a specific height */
+    min-height: 400px;
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
- 
+
 #about-us {
     background-color: var(--mint-cream);
 }
 
+.about-section-text {
+    padding-top: 70px;
+}
+
 table {
     width: 100%;
-    height: 100%;
+    height: 120%;
 }
 
 thead {
@@ -284,7 +292,7 @@ td {
     filter: drop-shadow(10px 10px var(--rich-black));
 }
 
-.bi:hover {
-    color: var(--red-wood) !important;
-    transition: .2s;
+a .bi:hover {
+    color: var(--rich-black) !important;
+    transition: .5s;
 }
