@@ -40,7 +40,7 @@ let time_schedule = [
     },
     {
         "day": "SATURDAY",
-        "hours": "CLOSED"
+        "hours": "APPOINTMENT ONLY"
     }
 ];
 function loadSchedule() {
